@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './PaginaPrincipal.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import FooterPage from "./Footer/Footer";
 
 function PaginaPrincipal() {
 
@@ -44,6 +45,8 @@ function PaginaPrincipal() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <FooterPage/>
+            
         </div>
     );
 
